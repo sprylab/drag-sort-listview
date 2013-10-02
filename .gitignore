@@ -20,3 +20,11 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# IntelliJ
+.idea
+*.iml
+
+# Gradle
+build
+.gradle
