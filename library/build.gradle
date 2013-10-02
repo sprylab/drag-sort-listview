@@ -115,5 +115,13 @@ def modifyPom(pom) {
                 distribution 'repo'
             }
         }
+
+        developers {
+            developer {
+                id 'bauerca'
+                name 'Carl Bauer'
+                url 'https://github.com/bauerca'
+            }
+        }
 			}
 }
