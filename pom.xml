@@ -25,7 +25,7 @@ Copyright 2012 Andreas Schildbach
 
     <groupId>com.sprylab.dragsortlist</groupId>
     <artifactId>parent</artifactId>
-    <version>0.6.1-sprylab</version>
+    <version>0.6.2-sprylab</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -60,7 +60,7 @@ Copyright 2012 Andreas Schildbach
                 <plugin>
                     <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                     <artifactId>android-maven-plugin</artifactId>
-                    <version>3.7.0</version>
+                    <version>3.9.0-rc.2</version>
                     <extensions>true</extensions>
                 </plugin>
             </plugins>

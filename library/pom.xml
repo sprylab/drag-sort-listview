@@ -20,11 +20,11 @@ Copyright 2012 Andreas Schildbach
     <parent>
         <groupId>com.sprylab.dragsortlist</groupId>
         <artifactId>parent</artifactId>
-        <version>0.6.1-sprylab</version>
+        <version>0.6.2-sprylab</version>
     </parent>
 
     <artifactId>drag-sort-listview</artifactId>
-    <packaging>apklib</packaging>
+    <packaging>aar</packaging>
 
     <dependencies>
         <dependency>
