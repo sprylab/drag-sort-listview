@@ -20,7 +20,7 @@ Copyright 2012 Andreas Schildbach
     <parent>
         <groupId>com.sprylab</groupId>
         <artifactId>sprylab-parent</artifactId>
-        <version>2</version>
+        <version>3</version>
     </parent>
 
     <groupId>com.sprylab.dragsortlist</groupId>
