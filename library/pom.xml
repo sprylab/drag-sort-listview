@@ -20,7 +20,7 @@ Copyright 2012 Andreas Schildbach
     <parent>
         <groupId>com.sprylab.dragsortlist</groupId>
         <artifactId>parent</artifactId>
-        <version>0.6.2-sprylab</version>
+        <version>0.6.3-sprylab</version>
     </parent>
 
     <artifactId>drag-sort-listview</artifactId>
@@ -36,6 +36,7 @@ Copyright 2012 Andreas Schildbach
             <groupId>com.android.support</groupId>
             <artifactId>support-v4</artifactId>
             <optional>true</optional>
+            <type>aar</type>
         </dependency>
     </dependencies>
 
@@ -52,6 +53,13 @@ Copyright 2012 Andreas Schildbach
                         <path>${env.ANDROID_HOME}</path>
                         <platform>${android.sdk.platform}</platform>
                     </sdk>
+                    <!-- Dont fail on old structure -->
+                    <failOnNonStandardStructure>false</failOnNonStandardStructure>
+                    <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
+                    <updatedManifestFile>${project.basedir}/AndroidManifest.xml</updatedManifestFile>
+                    <assetsDirectory>${project.basedir}/assets</assetsDirectory>
+                    <resourceDirectory>${project.basedir}/res</resourceDirectory>
+
                 </configuration>
             </plugin>
         </plugins>
